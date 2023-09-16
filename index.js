@@ -35,3 +35,11 @@ console.log("hello my name is" + " "  + Name + " " + "and"  +  " " + "i attended
 // let element represents another variable in javascript. It is a statement used to declare a variable that is block scoped.
 // const element declares  creates a fixed reference to a value. It does not mean the value it holds is unchangeable meaning that the variable identifier cannot be reassigned to another.
 
+
+//var
+var name = "victoria";
+
+var name = "Lisa"
+
+console.log(name)
+
