@@ -125,6 +125,7 @@ add(12,8)
 
 // Assignment
 
+
 function subtract(a, b){
     console.log(a - b)
     console.log(a + " - " + b + " = ", a-b)
@@ -152,3 +153,190 @@ function multiply(a, b){
 }
 
 multiply(5,12)
+
+
+
+
+
+
+
+// objects
+// objects are properties which can be key and a value
+
+
+
+
+
+
+
+
+let vehicle = {
+    colour:"white",
+    model:"edge",
+    year:"2020",
+    brand:"ford",
+}
+
+
+console.log(vehicle)
+
+
+console.log(vehicle.model)
+
+
+vehicle.model = "explorer"
+
+
+console.log(vehicle.model)
+
+console.log(vehicle)
+
+let vehicles = ["toyota", "benz", "lexus", "bently"]
+console.log(vehicles);
+
+
+
+
+let profile = [
+    {
+        gender: 'female',
+        ageBracket: "15-20",
+        school: "queens college",
+        address: {
+            street: "adekunle street",
+            city: "lagos"
+        }
+    },
+    {
+        gender: 'male',
+        ageBracket: "15-20",
+        school: "Kings college",
+        address: {
+            street: "adekunle street",
+            city: "lagos"
+        }
+    },
+    "Adebayo"
+]
+console.log(profile);
+
+
+
+
+
+
+let person = [
+    {
+        gender: 'female',
+        ageBracket: "15-20",
+        school: "queens college",
+        address: {
+            street: "adekunle street",
+            city: "lagos"
+        }
+    },
+    {
+        gender: 'male',
+        ageBracket: "15-20",
+        school: "Kings college",
+        address: {
+            street: "adekunle street",
+            city: "lagos"
+        }
+    },
+    "Adebayo"
+]
+
+console.log (person)
+
+person[0].address.city = "ogun";
+person[1].address.city = "ogun";
+person[2] = "Micheal"
+
+
+
+
+function nation(){
+    console.log("Ukraine, UKR");
+    console.log("Russia, RUS");
+    console.log("Nigeria, NIG");
+    console.log("Ghana, GHA");
+    console.log("Turkey TUR")
+}
+nation()
+
+
+
+
+
+
+   
+
+//conditional statement
+
+
+//if (condition){
+    //made to be true
+
+
+
+
+
+//let date = 90;
+
+//if (date = 50) {
+ //   console.log("yes date is greater");
+//}
+
+
+let date = 5;
+if (date > 10){
+    console.log("date is greater than 10")
+}else if (date < 4) {
+    console.log("date is less than 4")
+}else{
+    console.log("no")
+}
+
+
+let dogbark = true;
+let lionroar = false 
+
+
+if (!dogbark) {
+    console.log("age is greater than 20")
+}else if (!!dogbark){
+    console.log("maybe")
+
+
+}else if  (!lionroar) {
+    console.log("age is less than 3")
+
+}else {
+    console.log("no")
+}
+
+
+if(2!=2) {
+    console.log("yes")
+}else{
+    console.log("no")
+}
+
+
+
+
+
+let UsersAge = prompt("Please enter your age");
+console.log(UsersAge)
+let Citizenship = prompt("Are you a Citizen?")
+console.log(Citizenship)
+
+if (UsersAge >= 18 && Citizenship == "yes") {
+    alert ("You are eligible to vote");
+} else if (UsersAge < 18 && Citizenship == "yes"){
+    alert("Citizenship Valid, Age Invalid")
+} else {
+    alert ("Ineligible to vote");
+}
+
