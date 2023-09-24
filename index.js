@@ -334,8 +334,6 @@ console.log(Citizenship)
 
 if (UsersAge >= 18 && Citizenship == "yes") {
     alert ("You are eligible to vote");
-} else if (UsersAge < 18 && Citizenship == "yes"){
-    alert("Citizenship Valid, Age Invalid")
 } else {
     alert ("Ineligible to vote");
 }
